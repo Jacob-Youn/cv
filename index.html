@@ -1,109 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta description="It is my first Website" />
-  <title>Jacob's personal Website</title>
+  <title>Jacob Youn</title>
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather:wght@300&family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <table cellspacing = "20">
-    <tr>
-      <td><img src="images\jacobYounCropped.png" alt="Jacob Youn's profile image"></td>
-      <td>
-        <h1>Jacob Youn</h1>
-        <p>
-          <em><strong>Okanagan College</strong> Graduate</em>
-        </p>
-        <p>
-          Born in Korea, living in Canada.<br> Loves the nature,
-          Pursue a life like water.
-        </p>
-      </td>
-    </tr>
-  </table>
-
-  <hr>
-
-  <h3>Education</h3>
-  <ul>
-    <li>Okanagan College</li>
-    <li>WebDesign Academy</li>
-    <li>Dae Jung High School</li>
-  </ul>
-
-  <hr>
-
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th><th>Work</th>
-      </tr>
-    </thead>
-    <tbod>
-      <tr>
-        <td>2017 - present</td><td>Kelowna General Hospital</td>
-      </tr>
-      <tr>
-        <td>2017</td><td>Manteo Resort - Kelowna</td>
-      </tr>
-      <tr>
-        <td>2016</td><td>MOMO Japanese Restaurant - Kelowna</td>
-      </tr>
-      <tr>
-        <td>2011 - 2015</td><td>Genji Japanese Restaurant - Kelowna</td>
-      </tr>
-    </tbod>
-    <tfoot>
-    </tfoot>
-  </table>
-
-  <hr>
-
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table cellspacing = "10">
-          <tr>
-            <td>HTML</td>
-            <td>★★★★☆</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>★★★☆☆</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing = "10">
-          <tr>
-            <td>JavaScript</td>
-            <td>★★★☆☆</td>
-          </tr>
-          <tr>
-            <td>C</td>
-            <td>★★★☆☆</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <hr>
-
-  <h3>My portfolio</h3>
-  <ol>
-    <li><a href="paintJS\index.html">paintJS</a></li>
-    <li><a href="practiceJS\index.html">Cloning Momentum</a></li>
-  </ol>
-
-  <hr>
-  
-  <h3><a href="myHobbies.html">My Hobbies</a></h3>
-  <h3><a href="contact.html">My Contact</a></h3>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I am Jacob.</h1>
+    <h2 class = "whoAmI">A web developer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/jacobYounCropped.png" alt="profile-image">
+      <h2>Hello. I am Jacob.</h2>
+      <p>A graduate of Okanagan College. Born in Korea, living in Canada. Loves the nature, Pursue a life like water.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="first-skill" src="images/code.png" alt="code-img">
+        <h3>Available programming languages</h3>
+        <p>HTML	★★★★☆<br>CSS	★★★☆☆<br>JavaScript	★★★☆☆ <br>C	★★★☆☆</p>
+      </div>
+      <div class="skill-row">
+        <img class="second-skill" src="images/circuit.png" alt="circuit-img">
+        <h3>Electronic engineering</h3>
+        <p>I graduated Electronic engineering diploma program in Okanagan College
+        More sepecifically I am able to solder, design PCB using Altium, troubleshoot of electrical device, understan embeded system and PLC</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you are interested to hire me</h3>
+      <a href="mailto:jaftercob@gmail.com" class="BUTTON_IWD">CONTACT ME</a>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <div class="copyright">
+      <p>© 2020 Jacob Youn.</p>
+      <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+    </div>
+  </div>
 </body>
-
 </html>
