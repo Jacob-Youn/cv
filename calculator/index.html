@@ -2,13 +2,13 @@
 <html>
 
 <head>
-  <title>Something</title>
-  <meta charset="utf-8" />
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
   <link rel="icon" href="../favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather:wght@300&family=Nunito:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="src/styles.css">
 </head>
 
 <body>
@@ -48,24 +48,31 @@
       </form>
     </div>
   </nav>
-  <div class="js-clock">
-    <h1>00:00</h1>
+  <div class="js-calculator calculator">
+    <h2>Made by Jacob</h2>
+    <div class="top-line">
+      <h1 class="js-display display">0</h1>
+      <input class="button lightGreyButton" type="button" data-action="clear" value="C">
+    </div>
+    <div class="buttons">
+      <input class="button greyButton" type="button" value=7>
+      <input class="button greyButton" type="button" value=8>
+      <input class="button greyButton" type="button" value=9>
+      <input class="button orangeButton" type="button" data-action="add" value="+">
+      <input class="button greyButton" type="button" value=4>
+      <input class="button greyButton" type="button" value=5>
+      <input class="button greyButton" type="button" value=6>
+      <input class="button orangeButton" type="button" data-action="subtract" value=->
+      <input class="button greyButton" type="button" value=1>
+      <input class="button greyButton" type="button" value=2>
+      <input class="button greyButton" type="button" value=3>
+      <input class="button orangeButton" type="button" data-action="multiply" value="*">
+      <input class="button greyButtonDouble" type="button" value=0>
+      <input class="button greyButton" type="button" data-action="calculate" value="=">
+      <input class="button orangeButton" type="button" data-action="divide" value="/">
+    </div>
   </div>
-  <form class="js-form form">
-    <input type="text" placeholder="What's your name?" />
-  </form>
-  <h4 class="js-greetings greetings"></h4>
-  <form class="js-toDoForm">
-    <input type="text" placeholder="Write a to do" />
-  </form>
-  <ul class="js-toDoList">
-  </ul>
-  <span class="js-weather"></span>
-  <script src="clock.js"></script>
-  <script src="greetings.js"></script>
-  <script src="todo.js"></script>
-  <script src="bg.js"></script>
-  <script src="weather.js"></script>
+  <script src="src/index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: right;
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  left: 1rem;
+  top: 4rem;
+  height: 4rem;
+  width: 20rem;
+  display: inline-block;
+}
+
+h2 {
+  color: white;
+  position: absolute;
+  margin-left: 1rem;
+  left: 1rem;
+  top: 1rem;
+  
+}
+
+.calculator {
+  background-color: black;
+  width: 30rem;
+  height: 31rem;
+  border-radius: 30px;
+}
+
+.button {
+  color: white;
+  display: inline-block;
+  width: 7rem;
+  height: 5rem;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  opacity: 0.8;
+}
+
+.buttons {
+  position: absolute;
+  left: 1rem;
+  top: 10rem;
+  width: 30rem;
+}
+
+.greyButton {
+  background-color: grey;
+}
+
+.greyButtonDouble {
+  background-color: grey;
+  width: 14.3rem;
+}
+
+.lightGreyButton {
+  background-color: lightgrey;
+  position: absolute;
+  left: 22.8rem;
+  top: 5rem;
+}
+
+.orangeButton {
+  background-color: orange;
+}
+
+.display {
+  width: 20rem;
+}
